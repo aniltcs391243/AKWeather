@@ -34,7 +34,7 @@
                                                         <constraint firstAttribute="width" constant="116" id="1vR-1c-gJv"/>
                                                         <constraint firstAttribute="height" constant="58" id="nZx-xb-95X"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -44,7 +44,7 @@
                                                         <constraint firstAttribute="width" constant="61" id="jNC-p8-8a9"/>
                                                         <constraint firstAttribute="height" constant="21" id="smZ-or-YlC"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -61,8 +61,8 @@
                                                         <constraint firstAttribute="width" constant="56" id="57J-8S-Ehe"/>
                                                         <constraint firstAttribute="height" constant="21" id="elN-FA-fjT"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
-                                                    <color key="textColor" red="0.4849660495" green="0.48942155189999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -115,7 +115,7 @@
                                             <constraint firstAttribute="width" constant="90" id="C27-tD-AzW"/>
                                             <constraint firstAttribute="height" constant="21" id="yj0-qv-i66"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -125,7 +125,7 @@
                                             <constraint firstAttribute="height" constant="21" id="8Ud-4u-SZN"/>
                                             <constraint firstAttribute="width" constant="90" id="lTu-wx-ihG"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -135,7 +135,7 @@
                                             <constraint firstAttribute="height" constant="21" id="927-dz-Uwk"/>
                                             <constraint firstAttribute="width" constant="90" id="XJK-tv-6Hm"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -145,7 +145,7 @@
                                             <constraint firstAttribute="height" constant="32" id="TnT-fu-jd9"/>
                                             <constraint firstAttribute="width" constant="470" id="t9O-eh-a81"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -225,7 +225,7 @@
                                             <constraint firstAttribute="height" constant="21" id="0fj-mN-AXj"/>
                                             <constraint firstAttribute="width" constant="72" id="WfU-5P-jTK"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -235,7 +235,7 @@
                                             <constraint firstAttribute="height" constant="21" id="NoJ-zP-KVG"/>
                                             <constraint firstAttribute="width" constant="71" id="lKS-Rg-Ta8"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -245,7 +245,7 @@
                                             <constraint firstAttribute="height" constant="21" id="WOk-9X-IyH"/>
                                             <constraint firstAttribute="width" constant="72" id="s0Y-fr-kEQ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
