@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462D03DE1B58B3C800405DEB /* AKWebConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C240A1B55713900895F10 /* AKWebConnectionManager.swift */; };
+		465868CA1B56D64D0037FD10 /* AKCustomHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465868C91B56D64D0037FD10 /* AKCustomHeaderCell.swift */; };
+		465C24091B55710900895F10 /* AKWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C24081B55710900895F10 /* AKWeather.swift */; };
+		465C240B1B55713900895F10 /* AKWebConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C240A1B55713900895F10 /* AKWebConnectionManager.swift */; };
+		46864FCE1B5615E000028448 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46864FCD1B5615E000028448 /* Reachability.swift */; };
+		46864FD01B56190200028448 /* AKWeatherBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46864FCF1B56190200028448 /* AKWeatherBaseViewController.swift */; };
 		4689851A1B556D5D009960EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468985191B556D5D009960EC /* AppDelegate.swift */; };
-		4689851C1B556D5D009960EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689851B1B556D5D009960EC /* ViewController.swift */; };
 		4689851F1B556D5D009960EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4689851D1B556D5D009960EC /* Main.storyboard */; };
 		468985211B556D5D009960EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468985201B556D5D009960EC /* Images.xcassets */; };
 		468985241B556D5D009960EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468985221B556D5D009960EC /* LaunchScreen.xib */; };
 		468985301B556D5D009960EC /* AKWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689852F1B556D5D009960EC /* AKWeatherTests.swift */; };
+		4689853A1B556D99009960EC /* AKWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468985391B556D98009960EC /* AKWeatherViewController.swift */; };
+		4689853C1B558EDB009960EC /* AKWeatherModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689853B1B558EDB009960EC /* AKWeatherModal.swift */; };
+		4689853E1B55933E009960EC /* AKWeatherDailyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689853D1B55933E009960EC /* AKWeatherDailyModal.swift */; };
+		468985431B55A93A009960EC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468985421B55A93A009960EC /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +35,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		465868C91B56D64D0037FD10 /* AKCustomHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKCustomHeaderCell.swift; sourceTree = "<group>"; };
+		465C24081B55710900895F10 /* AKWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKWeather.swift; sourceTree = "<group>"; };
+		465C240A1B55713900895F10 /* AKWebConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKWebConnectionManager.swift; sourceTree = "<group>"; };
+		46864FCD1B5615E000028448 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		46864FCF1B56190200028448 /* AKWeatherBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKWeatherBaseViewController.swift; sourceTree = "<group>"; };
 		468985141B556D5D009960EC /* AKWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		468985181B556D5D009960EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		468985191B556D5D009960EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4689851B1B556D5D009960EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4689851E1B556D5D009960EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		468985201B556D5D009960EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		468985231B556D5D009960EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		468985291B556D5D009960EC /* AKWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4689852E1B556D5D009960EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4689852F1B556D5D009960EC /* AKWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKWeatherTests.swift; sourceTree = "<group>"; };
+		468985391B556D98009960EC /* AKWeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKWeatherViewController.swift; sourceTree = "<group>"; };
+		4689853B1B558EDB009960EC /* AKWeatherModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKWeatherModal.swift; sourceTree = "<group>"; };
+		4689853D1B55933E009960EC /* AKWeatherDailyModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKWeatherDailyModal.swift; sourceTree = "<group>"; };
+		468985421B55A93A009960EC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468985431B55A93A009960EC /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +77,7 @@
 		4689850B1B556D5D009960EC = {
 			isa = PBXGroup;
 			children = (
+				468985421B55A93A009960EC /* CoreLocation.framework */,
 				468985161B556D5D009960EC /* AKWeather */,
 				4689852C1B556D5D009960EC /* AKWeatherTests */,
 				468985151B556D5D009960EC /* Products */,
@@ -77,12 +96,19 @@
 		468985161B556D5D009960EC /* AKWeather */ = {
 			isa = PBXGroup;
 			children = (
+				46864FCD1B5615E000028448 /* Reachability.swift */,
 				468985191B556D5D009960EC /* AppDelegate.swift */,
-				4689851B1B556D5D009960EC /* ViewController.swift */,
+				46864FCF1B56190200028448 /* AKWeatherBaseViewController.swift */,
+				468985391B556D98009960EC /* AKWeatherViewController.swift */,
+				465C240A1B55713900895F10 /* AKWebConnectionManager.swift */,
+				465C24081B55710900895F10 /* AKWeather.swift */,
+				4689853B1B558EDB009960EC /* AKWeatherModal.swift */,
+				4689853D1B55933E009960EC /* AKWeatherDailyModal.swift */,
 				4689851D1B556D5D009960EC /* Main.storyboard */,
 				468985201B556D5D009960EC /* Images.xcassets */,
 				468985221B556D5D009960EC /* LaunchScreen.xib */,
 				468985171B556D5D009960EC /* Supporting Files */,
+				465868C91B56D64D0037FD10 /* AKCustomHeaderCell.swift */,
 			);
 			path = AKWeather;
 			sourceTree = "<group>";
@@ -212,8 +238,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4689851C1B556D5D009960EC /* ViewController.swift in Sources */,
+				4689853E1B55933E009960EC /* AKWeatherDailyModal.swift in Sources */,
+				465868CA1B56D64D0037FD10 /* AKCustomHeaderCell.swift in Sources */,
+				465C240B1B55713900895F10 /* AKWebConnectionManager.swift in Sources */,
+				4689853C1B558EDB009960EC /* AKWeatherModal.swift in Sources */,
+				465C24091B55710900895F10 /* AKWeather.swift in Sources */,
 				4689851A1B556D5D009960EC /* AppDelegate.swift in Sources */,
+				46864FCE1B5615E000028448 /* Reachability.swift in Sources */,
+				46864FD01B56190200028448 /* AKWeatherBaseViewController.swift in Sources */,
+				4689853A1B556D99009960EC /* AKWeatherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462D03DE1B58B3C800405DEB /* AKWebConnectionManager.swift in Sources */,
 				468985301B556D5D009960EC /* AKWeatherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +306,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akhil Puri (DZQVTPK39B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Akhil Puri (DZQVTPK39B)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -294,6 +329,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "fbaebb4f-8796-444c-a299-f8e8cc0e549e";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +353,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akhil Puri (DZQVTPK39B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Akhil Puri (DZQVTPK39B)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -332,6 +369,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "fbaebb4f-8796-444c-a299-f8e8cc0e549e";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -342,9 +380,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akhil Puri (DZQVTPK39B)";
 				INFOPLIST_FILE = AKWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fbaebb4f-8796-444c-a299-f8e8cc0e549e";
 			};
 			name = Debug;
 		};
@@ -352,9 +392,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akhil Puri (DZQVTPK39B)";
 				INFOPLIST_FILE = AKWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fbaebb4f-8796-444c-a299-f8e8cc0e549e";
 			};
 			name = Release;
 		};
@@ -411,6 +453,7 @@
 				468985351B556D5D009960EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		468985361B556D5D009960EC /* Build configuration list for PBXNativeTarget "AKWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +462,7 @@
 				468985381B556D5D009960EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
